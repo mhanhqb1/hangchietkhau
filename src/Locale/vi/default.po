@@ -1,0 +1,392 @@
+msgid ""
+msgstr ""
+"Plural-Forms: nplurals=1; plural=0;\n"
+"Project-Id-Version: Sample\n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: \n"
+"Last-Translator: \n"
+"Language-Team: AnhMH\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: ja\n"
+"X-Generator: Poedit 1.8.6\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+
+msgid "LABEL_LOGIN"
+msgstr "Đăng nhập"
+
+msgid "LABEL_SIGN_OUT"
+msgstr "Đăng xuất"
+
+msgid "LABEL_PROFILE"
+msgstr "Hồ sơ"
+
+msgid "LABEL_DASHBOARD"
+msgstr "Dashboard"
+
+msgid "LABEL_ORDER_MANAGEMENT"
+msgstr "Quản lý đơn hàng"
+
+msgid "LABEL_PRODUCT_MANAGEMENT"
+msgstr "Quản lý sản phẩm"
+
+msgid "LABEL_CUSTOMER_MANAGEMENT"
+msgstr "Quản lý khách hàng"
+
+msgid "LABEL_SUPPLIERS_MANAGEMENT"
+msgstr "Quản lý nhà cung cấp"
+
+msgid "LABEL_SETTING_MANAGEMENT"
+msgstr "Cài đặt"
+
+msgid "LABEL_UPDATE_PROFILE"
+msgstr "Cập nhật hồ sơ"
+
+msgid "LABEL_HOME"
+msgstr "Trang chủ"
+
+msgid "LABEL_ACCOUNT"
+msgstr "Tài khoản"
+
+msgid "LABEL_NAME"
+msgstr "Tên"
+
+msgid "LABEL_EMAIL"
+msgstr "Email"
+
+msgid "LABEL_TEL"
+msgstr "Số điện thoại"
+
+msgid "LABEL_ADDRESS"
+msgstr "Địa chỉ"
+
+msgid "LABEL_AVATAR"
+msgstr "Hình đại diện"
+
+msgid "LABEL_WEBSITE"
+msgstr "Website"
+
+msgid "LABEL_FACEBOOK"
+msgstr "Facebook"
+
+msgid "LABEL_SAVE"
+msgstr "Lưu"
+
+msgid "LABEL_CANCEL"
+msgstr "Quay lại"
+
+msgid "LABEL_CREATED"
+msgstr "Ngày tạo"
+
+msgid "LABEL_EDIT"
+msgstr "Sửa"
+
+msgid "LABEL_DELETE"
+msgstr "Xóa"
+
+msgid "LABEL_SEARCH"
+msgstr "Tìm kiếm"
+
+msgid "LABEL_ADD_NEW"
+msgstr "Thêm mới"
+
+msgid "LABEL_ENABLE"
+msgstr "Khôi phục"
+
+msgid "LABEL_LIMIT"
+msgstr "Số lượng hiển thị"
+
+msgid "LABEL_CUSTOMER_LIST"
+msgstr "Danh sách khách hàng"
+
+msgid "MESSAGE_UPDATE_SUCCESSFULLY"
+msgstr "Cập nhật thành công"
+
+msgid "LABEL_NOTE"
+msgstr "Ghi chú"
+
+msgid "MESSAGE_REQUIRED_NAME"
+msgstr "Vui lòng nhập tên"
+
+msgid "MESSAGE_INVALID_EMAIL_FORMAT"
+msgstr "Email không đúng"
+
+msgid "MESSAGE_SAVE_OK"
+msgstr "Lưu dữ liệu thành công"
+
+msgid "MESSAGE_SAVE_NG"
+msgstr "Không thể lưu dữ liệu"
+
+msgid "LABEL_CUSTOMER_UPDATE"
+msgstr "Cập nhật thông tin khách hàng"
+
+msgid "LABEL_STATUS"
+msgstr "Trạng thái"
+
+msgid "LABEL_ACTIVE"
+msgstr "Hoạt động"
+
+msgid "LABEL_INACTIVE"
+msgstr "Đã xóa"
+
+msgid "LABEL_PAGING_SUMARY"
+msgstr "Hiển thị %s ~ %s của tổng số %s"
+
+msgid "LABEL_ORDER_COUNT"
+msgstr "Số lần đặt hàng"
+
+msgid "LABEL_PASSWORD"
+msgstr "Mật khẩu"
+
+msgid "LABEL_SUPPLIER_LIST"
+msgstr "Danh sách nhà cung cấp"
+
+msgid "LABEL_SUPPLIER_UPDATE"
+msgstr "Cập nhật nhà cung cấp"
+
+msgid "LABEL_PRODUCT_LIST"
+msgstr "Danh sách sản phẩm"
+
+msgid "LABEL_PRODUCT_UPDATE"
+msgstr "Cập nhật sản phẩm"
+
+msgid "LABEL_PRICE"
+msgstr "Giá"
+
+msgid "LABEL_DISCOUNT"
+msgstr "Giảm giá(%)"
+
+msgid "LABEL_DESCRIPTION"
+msgstr "Mô tả"
+
+msgid "LABEL_CATEGORY_LIST"
+msgstr "Danh sách danh mục"
+
+msgid "LABEL_CATEGORY"
+msgstr "Danh mục"
+
+msgid "LABEL_PRODUCT"
+msgstr "Sản phẩm"
+
+msgid "LABEL_QTY"
+msgstr "Số lượng"
+
+msgid "LABEL_CART_SUB_TOTAL"
+msgstr "Thành tiền"
+
+msgid "MESSAGE_SEARCH_NO_RESULT"
+msgstr "Không tìm thấy kết qủa phù hợp"
+
+msgid "LABEL_PAYMENT_INFO"
+msgstr "Thông tin thanh toán"
+
+msgid "LABEL_PAYMENT_METHOD"
+msgstr "Phương thức"
+
+msgid "LABEL_PAYMENT_METHOD_CASH_ON_DELIVERY"
+msgstr "Tiền mặt"
+
+msgid "LABEL_PAYMENT_METHOD_BANK_TRANFER"
+msgstr "Chuyển khoản"
+
+msgid "LABEL_ORDER_TOTAL"
+msgstr "Tổng tiền"
+
+msgid "LABEL_PAY_TOTAL"
+msgstr "Đã thanh toán"
+
+msgid "LABEL_PAY_DEBT"
+msgstr "Còn nợ"
+
+msgid "LABEL_ORDER_SAVE"
+msgstr "Lưu hóa đơn"
+
+msgid "LABEL_ADD_NEW_CUSTOMER"
+msgstr "Thêm mới khách hàng"
+
+msgid "LABEL_PLACEHOLDER_CUSTOMER_INPUT"
+msgstr "Nhập tên hoặc số điện thoại khách hàng"
+
+msgid "LABEL_PLACEHOLDER_SUPPLIER_INPUT"
+msgstr "Nhập tên hoặc số điện thoại nhà cung cấp"
+
+msgid "LABEL_ORDER_INFO"
+msgstr "Thông tin đơn hàng"
+
+msgid "LABEL_PLACEHOLDER_SEARCH_PRODUCT"
+msgstr "Nhập tên sản phẩm cần tìm"
+
+msgid "LABEL_PRODUCT_INFO"
+msgstr "Thông tin sản phẩm"
+
+msgid "LABEL_PLACEHOLDER_NOTE"
+msgstr "Ghi chú..."
+
+msgid "LABEL_PLACEHOLDER_FULL_NAME"
+msgstr "Họ tên..."
+
+msgid "LABEL_PLACEHOLDER_TEL"
+msgstr "Số điện thoại..."
+
+msgid "LABEL_PLACEHOLDER_ADDRESS"
+msgstr "Địa chỉ..."
+
+msgid "LABEL_FULL_NAME"
+msgstr "Họ tên"
+
+msgid "LABEL_ORDER_TOTAL"
+msgstr "Tổng tiền"
+
+msgid "LABEL_DETAIL"
+msgstr "Chi tiết"
+
+msgid "LABEL_ID"
+msgstr "ID"
+
+msgid "LABEL_ORDER_LIST"
+msgstr "Danh sách đơn hàng"
+
+msgid "LABEL_SUPPLIER"
+msgstr "Nhà cung cấp"
+
+msgid "LABEL_STOCK"
+msgstr "SL tồn kho"
+
+msgid "LABEL_ORDER_UPDATE"
+msgstr "Cập nhật hóa đơn"
+
+msgid "LABEL_IMAGE"
+msgstr "Hình ảnh"
+
+msgid "LABEL_ORDER_DETAIL"
+msgstr "Chi tiết hóa đơn"
+
+msgid "LABEL_ORDER"
+msgstr "Hóa đơn"
+
+msgid "LABEL_MORE_INFO"
+msgstr "Xem thêm"
+
+msgid "LABEL_CUSTOMER"
+msgstr "Khách hàng"
+
+msgid "LABEL_SELL_QTY"
+msgstr "SL đã bán"
+
+msgid "LABEL_ORDER_SELL"
+msgstr "Bán hàng"
+
+msgid "LABEL_ORDER_BUY"
+msgstr "Nhập hàng"
+
+msgid "LABEL_POST_MANAGEMENT"
+msgstr "Quản lý bài viết"
+
+msgid "LABEL_POST_LIST"
+msgstr "Danh sách bài viết"
+
+msgid "LABEL_POST_UPDATE"
+msgstr "Cập nhật bài viết"
+
+msgid "LABEL_CONTENT"
+msgstr "Nội dung"
+
+msgid "LABEL_CATE"
+msgstr "Danh mục"
+
+msgid "LABEL_CATE_MANAGEMENT"
+msgstr "Quản lý danh mục"
+
+msgid "LABEL_CATE_LIST"
+msgstr "Danh sách danh mục"
+
+msgid "LABEL_CATE_UPDATE"
+msgstr "Cập nhật danh mục"
+
+msgid "LABEL_ORDER_DISPLAY"
+msgstr "Thứ tự hiển thị"
+
+msgid "LABEL_KEYWORD"
+msgstr "Từ khóa"
+
+msgid "LABEL_TYPE"
+msgstr "Thể loại"
+
+msgid "LABEL_LOGO"
+msgstr "Logo (300x29px)"
+
+msgid "LABEL_TWITTER"
+msgstr "Twitter"
+
+msgid "LABEL_INSTAGRAM"
+msgstr "Instagram"
+
+msgid "LABEL_GOOGLE_PLUS"
+msgstr "Google plus"
+
+msgid "LABEL_YOUTUBE"
+msgstr "Youtube"
+
+msgid "LABEL_SEO_IMAGE"
+msgstr "SEO image"
+
+msgid "LABEL_SEO_DESCRIPTION"
+msgstr "SEO description"
+
+msgid "LABEL_SEO_KEYWORD"
+msgstr "SEO keywords"
+
+msgid "LABEL_COMPANIES_MANAGEMENT"
+msgstr "Cấu hình website"
+
+msgid "LABEL_ZALO"
+msgstr "Zalo"
+
+msgid "LABEL_SCRIPT_HEADER"
+msgstr "Script Header"
+
+msgid "LABEL_SCRIPT_BODY"
+msgstr "Script Body"
+
+msgid "LABEL_SCRIPT_FOOTER"
+msgstr "Script Footer"
+
+msgid "LABEL_BANNER_MANAGEMENT"
+msgstr "Quản lý slider"
+
+msgid "LABEL_BANNER_LIST"
+msgstr "Danh sách slider"
+
+msgid "LABEL_BANNER_UPDATE"
+msgstr "Cập nhật slider"
+
+msgid "LABEL_CATE_PARENT"
+msgstr "Danh mục cha"
+
+msgid "LABEL_POSITION"
+msgstr "Vị trí"
+
+msgid "LABEL_IS_HOMEPAGE"
+msgstr "Hiển thị ở trang chủ"
+
+msgid "LABEL_IS_HOT"
+msgstr "Sản phẩm HOT"
+
+msgid "LABEL_DISCOUNT_PRICE"
+msgstr "Giảm giá"
+
+msgid "LABEL_NO"
+msgstr "No"
+
+msgid "LABEL_YES"
+msgstr "Yes"
+
+msgid "LABEL_LINK"
+msgstr "Đường dẫn"
+
+msgid "LABEL_CONTACT_MANAGEMENT"
+msgstr "Quản lý liên hệ"
+
+msgid "LABEL_CONTACT_LIST"
+msgstr "Danh sách liên hệ"

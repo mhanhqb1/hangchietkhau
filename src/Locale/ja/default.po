@@ -1,0 +1,1284 @@
+msgid ""
+msgstr ""
+"Plural-Forms: nplurals=1; plural=0;\n"
+"Project-Id-Version: Sample\n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: \n"
+"Last-Translator: \n"
+"Language-Team: VCC <kiennh@vccvn.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: ja\n"
+"X-Generator: Poedit 1.8.6\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+
+msgid "MESSAGE_FORMAT_INVALID"
+msgstr "%sの形式が正しくありません。"
+
+msgid "MESSAGE_INVALID_DATE_FROM_TO"
+msgstr "TO日時はFROM日より後の日時を入力してください"
+
+msgid "LABEL_PRIORITY"
+msgstr "優先度"
+
+msgid "LABEL_EXPORT_ORDER"
+msgstr "注文データ出力"
+
+msgid "LABEL_DATE_FROM"
+msgstr "FROM日付"
+
+msgid "LABEL_DATE_TO"
+msgstr "TO日付"
+
+msgid "LABEL_COPYRIGHT"
+msgstr "Copyrights Baroque Japan Limited &copy; All Rights Reserved."
+
+msgid "LABEL_PROFILE"
+msgstr "プロフィール"
+
+msgid "LABEL_LOGOUT"
+msgstr "ログアウト"
+
+msgid "LABEL_MEMBER_FROM"
+msgstr "いつからメンバーになった%s"
+
+msgid "LABEL_DASHBOARD"
+msgstr "ダッシュボード"
+
+msgid "LABEL_EXPORT"
+msgstr "データ出力"
+
+msgid "LABEL_MASTER"
+msgstr "マスタ"
+
+msgid "LABEL_SETTING"
+msgstr "設定"
+
+msgid "LABEL_ORDERS"
+msgstr "Orders"
+
+msgid "LABEL_ITEMSETS"
+msgstr "アイテムセット"
+
+msgid "LABEL_ITEM"
+msgstr "アイテム"
+
+msgid "LABEL_ITEMSETS_LIST"
+msgstr "アイテムセット一覧"
+
+msgid "LABEL_ITEMS_LIST"
+msgstr "アイテム一覧"
+
+msgid "LABEL_ITEMS_IMAGE_PATH"
+msgstr "アイテム画像"
+
+msgid "LABEL_ITEMS_NAME"
+msgstr "アイテム名"
+
+msgid "LABEL_ITEMS_NAME_SUB"
+msgstr "ブランド名"
+
+msgid "LABEL_CHARGE_RESPONSES"
+msgstr "Charge_responses"
+
+msgid "LABEL_HOME"
+msgstr "ホーム"
+
+msgid "LABEL_LOGIN"
+msgstr "ログイン"
+
+msgid "LABEL_LOGIN_ID"
+msgstr "ログインID"
+
+msgid "LABEL_PASSWORD"
+msgstr "パスワード"
+
+msgid "LABEL_REMEMBER_ME"
+msgstr "次回からログイン情報を省略"
+
+msgid "LABEL_PLEASE_CHECK"
+msgstr "ご確認ください"
+
+msgid "LABEL_INFO"
+msgstr "情報"
+
+msgid "MESSAGE_LOGIN_FAIL"
+msgstr "ログインID又はパスワードが正しくありません。再度入力してください。"
+
+msgid "MESSAGE_REQUIRED_LOGIN_ID"
+msgstr "ログインIDは必須項目です。"
+
+msgid "MESSAGE_REQUIRED_LOGIN_PASSWORD"
+msgstr "パスワードを入力してください。"
+
+msgid "MESSAGE_REQUIRED_LOGIN_PASSWORD_CONFIRM"
+msgstr "パスワード確認を入力してください。"
+
+msgid "MESSAGE_REQUIRED_ADMIN_TYPE"
+msgstr "アドミンタイプは必須項目です。"
+
+msgid "MESSAGE_PASSWORD_CONFIRM_NOT_MATCH"
+msgstr "確認用パスワードは正しくはありません"
+
+msgid "LABEL_UPDATE"
+msgstr "更新"
+
+msgid "LABEL_SEARCH"
+msgstr "検索"
+
+msgid "LABEL_NAME"
+msgstr "名前"
+
+msgid "LABEL_EMAIL"
+msgstr "メールアドレス"
+
+msgid "LABEL_SUBJECT"
+msgstr "件名"
+
+msgid "LABEL_CONTENT"
+msgstr "内容"
+
+msgid "LABEL_CHOOSE_ONE"
+msgstr "選択してください"
+
+msgid "LABEL_ARTICLES_TITLE"
+msgstr "記事一覧"
+
+msgid "LABEL_REQUIRED_ARTICLES_TITLE"
+msgstr "記事一覧入力してください。"
+
+msgid "LABEL_SORT_ARTICLES_TITLE_ASC"
+msgstr "タイトルの昇順"
+
+msgid "LABEL_SORT_ARTICLES_TITLE_DESC"
+msgstr "タイトルの降順"
+
+msgid "LABEL_ARTICLES_DISABLE_TOTIP"
+msgstr "「公開されていない記事です」"
+
+msgid "LABEL_ARTICLES_PRODUCTS"
+msgstr "セット選択"
+
+msgid "LABEL_ARTICLES_PUBLIC_STATUS"
+msgstr "ステータス"
+
+msgid "LABEL_ARTICLES_STATUS"
+msgstr "ステータス"
+
+msgid "LABEL_ARTICLES_DETAIL"
+msgstr "記事詳細"
+
+msgid "LABEL_ARTICLES_CONTENT"
+msgstr "本文"
+
+msgid "LABEL_ARTICLES_DISPLAY_START_DATE"
+msgstr "本文"
+
+msgid "LABEL_ARTICLES_DISPLAY_END_DATE"
+msgstr "表示終了日"
+
+msgid "LABEL_ARTICLES_PRODUCTS_CATEGORY"
+msgstr "商品"
+
+msgid "LABEL_ARTICLES_POPUP_ADD"
+msgstr "保存"
+
+msgid "LABEL_ARTICLES_POPUP_CANCLE"
+msgstr "閉じる"
+
+msgid "LABEL_ARTICLES_POPUP_CATEGORIES"
+msgstr "記事選択"
+
+msgid "LABEL_PRODUCTS_BUTTON_POPUP"
+msgstr "商品を追加する"
+
+msgid "LABEL_ARTICLES_BUTTON_POPUP"
+msgstr "商品を選択する"
+
+msgid "LABEL_ARTICLES_TITLE_POPUP"
+msgstr "記事"
+
+msgid "LABEL_ARTICLES_DISABLE"
+msgstr "削除フラグ"
+
+msgid "LABEL_ARTICLES_PRODUCTS_CATEGORIES"
+msgstr "商品選択"
+
+msgid "LABEL_SORT_PRODUCTS_NAME_ASC"
+msgstr "タイトルの昇順"
+
+msgid "LABEL_SORT_PRODUCT_LOGS_NAME_DESC"
+msgstr "商品名の降順"
+
+msgid "LABEL_SORT_PRODUCT_LOGS_NAME_ASC"
+msgstr "商品名の昇順"
+
+msgid "LABEL_SORT_PRODUCTS_NAME_DESC"
+msgstr "タイトルの降順"
+
+msgid "LABEL_SORT_NAME_ASC"
+msgstr "名前の昇順"
+
+msgid "LABEL_SORT_NAME_DESC"
+msgstr "名前の降順"
+
+msgid "LABEL_SORT_PRODUCTS_CATEGORY_ID_ASC"
+msgstr "カテゴリの昇順"
+
+msgid "LABEL_SORT_PRODUCTS_CATEGORY_ID_DESC"
+msgstr "カテゴリの降順"
+
+msgid "LABEL_SORT_PRODUCTS_CATEGORY_ID_ASC"
+msgstr "カテゴリの昇順"
+
+msgid "LABEL_SORT_PRODUCTS_CATEGORY_ID_DESC"
+msgstr "カテゴリの降順"
+
+msgid "LABEL_SORT_PRIORITY_ASC"
+msgstr "優先度の昇順"
+
+msgid "LABEL_SORT_PRIORITY_DESC"
+msgstr "優先度の降順"
+
+msgid "LABEL_SORT_ID_ASC"
+msgstr "IDの昇順"
+
+msgid "LABEL_SORT_ID_DESC"
+msgstr "IDの降順"
+
+msgid "LABEL_SORT_PRICE_ASC"
+msgstr "価格の昇順"
+
+msgid "LABEL_SORT_PRICE_DESC"
+msgstr "価格の降順"
+
+msgid "LABEL_SORT_STOCK_ASC"
+msgstr "在庫の昇順"
+
+msgid "LABEL_SORT_STOCK_DESC"
+msgstr "在庫の降順"
+
+msgid "LABEL_SORT"
+msgstr "並び順"
+
+msgid "LABEL_LIMIT"
+msgstr "表示数"
+
+msgid "LABEL_PRICE"
+msgstr "価格"
+
+msgid "LABEL_SHARED"
+msgstr "シェア"
+
+msgid "LABEL_PURCHASE"
+msgstr "購入"
+
+msgid "LABEL_END"
+msgstr "終了"
+
+msgid "LABEL_START"
+msgstr "出稿"
+
+msgid "LABEL_STOCK"
+msgstr "在庫"
+
+msgid "LABEL_CREATED"
+msgstr "作成日"
+
+msgid "LABEL_EDIT"
+msgstr "編集"
+
+msgid "LABEL_DELETE"
+msgstr "削除"
+
+msgid "LABEL_ID"
+msgstr "ID"
+
+msgid "LABEL_PAGING_SUMARY"
+msgstr "全%s件中、%s～%s件を表示しています"
+
+msgid "MESSAGE_SYSTEM_ERROR"
+msgstr "システムエラー、もう一度操作してください"
+
+msgid "LABEL_CLOSE"
+msgstr "戻る"
+
+msgid "LABEL_INFO"
+msgstr "情報"
+
+msgid "MESSAGE_CANNOT_UPDATE"
+msgstr "更新できません"
+
+msgid "MESSAGE_UPDATE_SUCCESSFULLY"
+msgstr "データ更新を完了しました"
+
+msgid "LABEL_DISABLE"
+msgstr "無効"
+
+msgid "LABEL_ENABLE"
+msgstr "有効"
+
+msgid "LABEL_IMAGE"
+msgstr "画像"
+
+msgid "LABEL_ITEMSETS_UPDATE"
+msgstr "アイテムセット情報編集"
+
+msgid "LABEL_ITEMSETS_DETAIL"
+msgstr "アイテムセット詳細"
+
+msgid "LABEL_ADD_NEW"
+msgstr "新規追加"
+
+msgid "MESSAGE_REQUIRED_NAME"
+msgstr "タイトルは必須項目です。"
+
+msgid "MESSAGE_REQUIRED_URL"
+msgstr "URLは必須項目です。"
+
+msgid "MESSAGE_REQUIRED_PARAM"
+msgstr "パラメーターは必須項目です。"
+
+msgid "MESSAGE_REQUIRED_PRICE"
+msgstr "価格は必須項目です。"
+
+msgid "MESSAGE_REQUIRED_STOCK"
+msgstr "在庫は必須項目です。"
+
+msgid "MESSAGE_REQUIRED_NUMERIC_INPUT"
+msgstr "数字で入力してください"
+
+msgid "LABEL_SAVE"
+msgstr "保存"
+
+msgid "LABEL_CANCEL"
+msgstr "キャンセル"
+
+msgid "MESSAGE_SAVE_OK"
+msgstr "データの保存ができました。"
+
+msgid "MESSAGE_SAVE_NG"
+msgstr "データの保存ができませんでした。"
+
+msgid "LABEL_ITEMS_UPDATE"
+msgstr "アイテム情報編集"
+
+msgid "LABEL_ITEMS_DETAIL"
+msgstr "アイテム詳細"
+
+msgid "LABEL_NAME_SUB"
+msgstr "名前 SUB"
+
+msgid "LABEL_NAME_ENG"
+msgstr "名前 ENG"
+
+msgid "MESSAGE_UPLOAD_FILE_SIZE"
+msgstr "%s以下のファイルをアップロードしてください"
+
+msgid "MESSAGE_UPLOAD_FILE_TYPE"
+msgstr "画像ファイルのみをアップロードしてください"
+
+msgid "LABEL_NEW_PASSWORD"
+msgstr "新しいパスワード"
+
+msgid "LABEL_CONFIRM_PASSWORD"
+msgstr "パスワード確認"
+
+msgid "LABEL_CHANGE_PASSWORD"
+msgstr "パスワード変更"
+
+msgid "LABEL_PASSWORD"
+msgstr "パスワード"
+
+msgid "LABEL_ADMIN_LIST"
+msgstr "アドミン一覧"
+
+msgid "LABEL_ADMIN_DETAIL"
+msgstr "アドミン詳細"
+
+msgid "LABEL_ADMIN_LOGIN_ID"
+msgstr "ログインID"
+
+msgid "LABEL_ADMIN_TYPE"
+msgstr "アドミンタイプ"
+
+msgid "LABEL_CHANGE"
+msgstr "変更"
+
+msgid "-- Choose one --"
+msgstr "選択してください"
+
+msgid "LABEL_ADMINS_UPDATE"
+msgstr "アドミン編集"
+
+msgid "LABEL_ADMINS_LIST"
+msgstr "アドミン一覧"
+
+msgid "LABEL_CREATED_ASC"
+msgstr "作成日の昇順"
+
+msgid "LABEL_CREATED_DESC"
+msgstr "作成日の降順"
+
+msgid "LABEL_UPDATED"
+msgstr "更新日"
+
+msgid "LABEL_UPDATED_ASC"
+msgstr "更新日の昇順"
+
+msgid "LABEL_UPDATED_DESC"
+msgstr "更新日の降順"
+
+msgid "LABEL_ITEM_ITEMSETS"
+msgstr "アイテム．アイテムセット"
+
+msgid "LABEL_ITEM_ITEMSETS_LIST"
+msgstr "アイテム．アイテムセット一覧"
+
+msgid "LABEL_SORT_ITEMSET_ID_ASC"
+msgstr "アイテムセットIDの昇順"
+
+msgid "LABEL_SORT_ITEMSET_ID_DESC"
+msgstr "アイテムセットIDの降順"
+
+msgid "LABEL_ITEMSET_ID"
+msgstr "アイテムセットID"
+
+msgid "LABEL_ITEMSET_NAME"
+msgstr "アイテムセット名"
+
+msgid "LABEL_ITEM_ID"
+msgstr "アイテムID"
+
+msgid "LABEL_ITEM_NAME"
+msgstr "アイテム名"
+
+msgid "LABEL_ITEM_ITEMSETS_UPDATE"
+msgstr "アイテム．アイテムセット情報編集"
+
+msgid "LABEL_CURATORS"
+msgstr "キュレーター/ブランド管理"
+
+msgid "LABEL_CURATORS_IS_NOMODAL"
+msgstr "写真モーダルの表示"
+
+msgid "LABEL_CURATORS_IS_NOMODAL_YES"
+msgstr "表示する"
+
+msgid "LABEL_CURATORS_IS_NOMODAL_NO"
+msgstr "表示しない"
+
+msgid "LABEL_CURATORS_TAB_ALL"
+msgstr "全て"
+
+msgid "LABEL_CURATORS_TAB_SHOP_CLERK"
+msgstr "記事一覧"
+
+msgid "LABEL_CURATORS_TAB_STYLIST"
+msgstr "読者モデル<br>スタイリスト"
+
+msgid "LABEL_CURATORS_TAB_MODEL"
+msgstr "モデル・芸能人"
+
+msgid "LABEL_CURATORS_CATEGORY"
+msgstr "キュレーター/ブランドカテゴリ"
+
+msgid "LABEL_CURATORS_SIGN_UP"
+msgstr "キュレーター/ブランド管理"
+
+msgid "LABEL_CURATORS_NAME_KEY"
+msgstr "名前<span class='mb'>(漢字・英語表記、Instagramユーザ名)</span>"
+
+msgid "LABEL_CURATORS_NAME"
+msgstr "名前"
+
+msgid "LABEL_REQUIRED_CURATORS_NAME"
+msgstr "名前入力してください。"
+
+msgid "LABEL_REQUIRE_CURATORS"
+msgstr "キュレーター/ブランド管理入力してください。"
+
+msgid "LABEL_CURATORS_NAME_ENG"
+msgstr "漢字・英語表記"
+
+msgid "LABEL_CURATORS_IS_NO_DISPLAY_PRICE"
+msgstr "キュレーターTOPでの金額表示"
+
+msgid "LABEL_IS_NODISPLAYPRICE_NO"
+msgstr "金額を表示する"
+
+msgid "LABEL_IS_NODISPLAYPRICE_YES"
+msgstr "金額を表示しない"
+
+msgid "LABEL_CURATORS_IMAGE_POSITION"
+msgstr "アイコン画像表示位置"
+
+msgid "LABEL_CURATORS_IMAGE_POSITION_LEFT"
+msgstr "左側に表示"
+
+msgid "LABEL_CURATORS_IMAGE_POSITION_RIGHT"
+msgstr "右側に表示"
+
+msgid "LABEL_CURATORS_INSTAGRAMS_USERNAME"
+msgstr "Instagramユーザ名"
+
+msgid "LABEL_REQUIRED_CURATORS_INSTAGRAMS_USERNAME"
+msgstr "Instagramユーザ名入力してください。"
+
+msgid "LABEL_REQUIRED_CURATORS_INSTAGRAMS_USERNAME_DUPLICATE"
+msgstr "このinstagramユーザ名はすでに使われています。"
+
+msgid "LABEL_INSTAGRAMS_BTN_PREVIEW"
+msgstr "フロントで見る"
+
+msgid "LABEL_ARTICLE_MANAGEMENT"
+msgstr "記事管理"
+
+msgid "LABEL_SET_MANAGEMENT"
+msgstr "セット管理"
+
+msgid "LABEL_PRODUCT_MANAGEMENT"
+msgstr "商品管理"
+
+msgid "LABEL_PRODUCT_SHIPPING_CONTROL"
+msgstr "商品発送管理"
+
+msgid "LABEL_PERSON_IN_CHARGE"
+msgstr "管理者"
+
+msgid "LABEL_REGISTER"
+msgstr "登録"
+
+msgid "LABEL_TITLE"
+msgstr "タイトル"
+
+msgid "LABEL_CONTENT"
+msgstr "本文"
+
+msgid "LABEL_CATEGORY"
+msgstr "カテゴリ"
+
+msgid "LABEL_CATEGORY_EMPTY"
+msgstr "カテゴリを入力"
+
+msgid "LABEL_PRODUCT_CATEGORIES_EMPTY"
+msgstr "-カテゴリを選択 -"
+
+msgid "LABEL_PRODUCT_LIST"
+msgstr "商品（セット/単品）一覧"
+
+msgid "LABEL_PRODUCTS_PRODUCT_CATEGORIES"
+msgstr "商品カテゴリ"
+
+msgid "LABEL_PRODUCTS_IMAGE_PATH"
+msgstr "商品写真"
+
+msgid "LABEL_CURATOR"
+msgstr "キュレーター/ブランド"
+
+msgid "LABEL_CURATOR_EMPTY"
+msgstr "キュレーター/ブランドを入力"
+
+msgid "LABEL_ARTICLE_ADD"
+msgstr "記事新規作成"
+
+msgid "LABEL_ARTICLE_UPDATE"
+msgstr "記事編集"
+
+msgid "LABEL_SELECT_IMAGE"
+msgstr "画像選択"
+
+msgid "LABEL_INSTAGRAM_POPUP_TITLE"
+msgstr "作成するページの種類"
+
+msgid "LABEL_INSTAGRAM_POPUP_ADD_ARTICLE"
+msgstr "記事作成"
+
+msgid "LABEL_INSTAGRAM_POPUP_ADD_ITEMSET"
+msgstr "商品（セット/単品）"
+
+msgid "LABEL_INSTAGRAM_POPUP_ADD_ITEM"
+msgstr "商品単品"
+
+msgid "LABEL_INSTAGRAM_MANAGEMENT"
+msgstr "Instagram 投稿一覧"
+
+msgid "LABEL_INSTAGRAM_DATE_FILTER"
+msgstr "日時指定"
+
+msgid "LABEL_FILTER_DATE_TODAY"
+msgstr "本日のみ"
+
+msgid "LABEL_FILTER_DATE_7DAY"
+msgstr "本日〜1週間"
+
+msgid "LABEL_FILTER_DATE_30DAY"
+msgstr "本日〜1ヶ月"
+
+msgid "LABEL_SINGUP"
+msgstr "新規登録"
+
+msgid "LABEL_CURATORS_TITLE"
+msgstr "キュレーター/ブランド一覧"
+
+msgid "LABEL_PRODUCTS_TITLE"
+msgstr "商品（セット/単品）一覧"
+
+msgid "LABEL_ITEMS_TITLE"
+msgstr "アイテム一覧"
+
+msgid "LABEL_CURATORS_DETAIL"
+msgstr "キュレーター/ブランド詳細"
+
+msgid "LABEL_NOT_PUBLISHED"
+msgstr "非公開"
+
+msgid "LABEL_ADVERTISED"
+msgstr "公開"
+
+msgid "LABEL_UPLOAD_IMAGE"
+msgstr "instagram画像追加"
+
+msgid "LABEL_CONTACTS_MANAGEMENT"
+msgstr "問い合わせ一覧"
+
+msgid "LABEL_CONTACTS"
+msgstr "問い合わせ管理"
+
+msgid "LABEL_CONTACT_UPDATE"
+msgstr "コンタクト編集"
+
+msgid "LABEL_CONTACTS_DETAIL"
+msgstr "コンタクト詳細"
+
+msgid "MESSAGE_REQUIRED_EMAIL"
+msgstr "メールアドレスは必須項目です。"
+
+msgid "MESSAGE_INVALID_EMAIL_FORMAT"
+msgstr "メールアドレスの形式が無効です"
+
+msgid "LABEL_CURATOR_CATEGORIES_LIST"
+msgstr "キュレーター/ブランドカテゴリ一覧"
+
+msgid "LABEL_CURATOR_CATEGORIES_UPDATE"
+msgstr "キュレーター/ブランドカテゴリ変更"
+
+msgid "LABEL_CURATOR_CATEGORIES_REGISTER"
+msgstr "登録フォーム"
+
+msgid "MESSAGE_CONFIRM_DELETE"
+msgstr "削除しますがよろしいでしょうか？"
+
+msgid "LABEL_CURATOR_ADD"
+msgstr "新規登録"
+
+msgid "LABEL_CURATOR_EDIT"
+msgstr "キュレーター/ブランド編集"
+
+msgid "LABEL_CURATORCATEGORIES_DETAIL"
+msgstr "キュレーター/ブランドカテゴリ詳細"
+
+msgid "LABEL_INSTAGRAMS_IMPORT"
+msgstr "インポート"
+
+msgid "LABEL_INSTAGRAMS_PUBLIC_STATUS"
+msgstr "公開設定"
+
+msgid "LABEL_INSTAGRAMS_PUBLIC_STATUS_UPDATE"
+msgstr "公開設定"
+
+msgid "LABEL_INSTAGRAMS_PUBLIC_STATUS_UPDATE_DESCRIPTION"
+msgstr "「公開」に設定しても商品や記事と関連づけないとサイト上に表示されません。<br>「自動削除」は元になるinstagramが削除された時に自動的に設定されます。"
+
+msgid "LABEL_INSTAGRAMS_CONTENT_TYPE"
+msgstr "リンク種別"
+
+msgid "LABEL_INSTAGRAMS_INSTAGRAM_IMAGE"
+msgstr "投稿画像"
+
+msgid "LABEL_INSTAGRAMS_INSTAGRAM"
+msgstr "Instagram 投稿一覧"
+
+msgid "LABEL_INSTAGRAMS_UPDATE_TEXT"
+msgstr "編集"
+
+msgid "LABEL_INSTAGRAMS_EDIT_TEXT"
+msgstr "詳細"
+
+msgid "LABEL_INSTAGRAMS_DESCRIPTION"
+msgstr "本文"
+
+msgid "LABEL_INSTAGRAMS_MEDIA_ID"
+msgstr "メディアID"
+
+msgid "LABEL_INSTAGRAMS_MEDIA_ID_REQUIRED"
+msgstr "メディアIDは必須項目です。"
+
+msgid "LABEL_INSTAGRAMS_MEDIA_ID_SEARCH"
+msgstr " instagram内のID<span class='mb'>（URL貼り付けでもOKです。）</span>"
+
+msgid "LABEL_INSTAGRAMS_MEDIA_ID_UPDATE"
+msgstr "メディアID"
+
+msgid "LABEL_INSTAGRAMS_MEDIA_ID_UPDATE_DESCRIPTION"
+msgstr "instagramページのURLを貼り付けてください"
+
+msgid "LABEL_INSTAGRAMS_DETAIL"
+msgstr "instagram投稿詳細"
+
+msgid "LABEL_INSTAGRAMS_FREEWORD"
+msgstr "フリーワード"
+
+msgid "Admincurator"
+msgstr "キュレーター/ブランド"
+
+msgid "LABEL_INSTAGRAMS_CURATOR_RIGHT"
+msgstr "キュレーター/ブランド情報"
+
+msgid "LABEL_INSTAGRAMS_TYPE_TITLE"
+msgstr "リンク種別"
+
+msgid "LABEL_INSTAGRAMS_TYPE_ARTICLE"
+msgstr "記事作成"
+
+msgid "LABEL_INSTAGRAMS_TYPE_SET"
+msgstr "商品セット"
+
+msgid "LABEL_INSTAGRAMS_TYPE_ITEM"
+msgstr "商品単品"
+
+msgid "LABEL_INSTAGRAMS_TYPE_ARTICLE_LIST"
+msgstr "記事一覧"
+
+msgid "LABEL_INSTAGRAMS_TYPE_SET_LIST"
+msgstr "商品セット一覧"
+
+msgid "LABEL_INSTAGRAMS_TYPE_ITEM_LIST"
+msgstr "商品単品一覧"
+
+msgid "LABEL_ON"
+msgstr "削除しない"
+
+msgid "LABEL_OFF"
+msgstr "削除する"
+
+msgid "LABEL_DISABLE_ON"
+msgstr "未削除"
+
+msgid "LABEL_DISABLE_OFF"
+msgstr "削除済み"
+
+msgid "LABEL_CHOOSE_ALL"
+msgstr "すべて"
+
+msgid "LABEL_PRODUCT_CATEGORIES_LIST"
+msgstr "商品/アイテムカテゴリ一覧"
+
+msgid "LABEL_PRODUCT_CATEGORIES_NAME"
+msgstr "商品カテゴリ名"
+
+msgid "LABEL_PRODUCT_CATEGORIES_PRIORITY"
+msgstr "優先度"
+
+msgid "LABEL_PRODUCT_CATEGORIES_IS_FOR_ITEM"
+msgstr "アイテム用のカテゴリ"
+
+msgid "LABEL_PRODUCT_CATEGORIES_IS_FOR_PRODUCT"
+msgstr "商品用のカテゴリ"
+
+msgid "LABEL_PRODUCT_CATEGORIES_IS_FOR_ITEM_SEARCH"
+msgstr "アイテム用"
+
+msgid "LABEL_PRODUCT_CATEGORIES_IS_FOR_PRODUCT_SEARCH"
+msgstr "商品用"
+
+msgid "LABEL_PRODUCT_CATEGORIES_DETAIL"
+msgstr "商品カテゴリ詳細"
+
+msgid "LABEL_PRODUCT_CATEGORIES_UPDATE"
+msgstr "商品カテゴリ編集"
+
+msgid "LABEL_PRODUCT_CATEGORIES_ID_FOR_PRODUCTS"
+msgstr "商品カテゴリ"
+
+msgid "LABEL_PRODUCT_CATEGORIES_ID_FOR_ITEMS"
+msgstr "アイテムカテゴリ"
+
+msgid "LABEL_CATGORIES_NAME_REQUIRE"
+msgstr "商品カテゴリ名を入力してください"
+
+msgid "LABEL_CATGORIES_PRIORITY_ISNAMEBER"
+msgstr "優先度は数字で入力してください"
+msgstr "商品カテゴリ名を入力してください"
+
+msgid "LABEL_CURATORS_IS_BRAND"
+msgstr "キュレーター/ブランド選択"
+
+msgid "LABEL_CURATORS_IS_BRAND_SEARCH"
+msgstr "キュレーター/ブランド"
+
+msgid "LABEL_IS_BRAND_ZERO"
+msgstr "キュレーター"
+
+msgid "LABEL_IS_BRAND_ONE"
+msgstr "ブランド"
+
+msgid "LABEL_CURATORS_CHOOSE_ONE"
+msgstr "すべて"
+
+msgid "LABEL_CURATORS_WORKER_CATEGORY"
+msgstr "キュレーター/ブランドカテゴリ"
+
+msgid "LABEL_MEDIA_UPLOAD_ASC"
+msgstr "instagram投稿日時の昇順"
+
+msgid "LABEL_MEDIA_UPLOAD_DESC"
+msgstr "instagram投稿日時の降順"
+
+msgid "LABEL_INSTAGRAMS_MEDIA_UPLOAD"
+msgstr "Instagram投稿時間"
+
+msgid "LABEL_PRODUCTS_DATE"
+msgstr "出稿期間"
+
+msgid "LABEL_DISPLAY_START_DATE"
+msgstr "掲載開始"
+
+msgid "LABEL_DISPLAY_END_DATE"
+msgstr "掲載終了"
+
+msgid "LABEL_PRODUCTS_ITEM"
+msgstr "単品登録"
+
+msgid "LABEL_CATEGORY_PRODUCTS_ITEM"
+msgstr "カテゴリ選択"
+
+msgid "LABEL_PRODUCTS_ITEM_POPUP"
+msgstr "アイテム選択"
+
+msgid "LABEL_PRODUCTS_ITEM_POPUP_SORT"
+msgstr "並び順"
+
+msgid "LABEL_PRODUCTS_NAME"
+msgstr "タイトル"
+
+msgid "LABEL_PRODUCTS_PRICE"
+msgstr "価格"
+
+msgid "LABEL_PRODUCTS_URL"
+msgstr "外部リンク"
+
+msgid "LABEL_PRODUCTS_STOCK"
+msgstr "在庫"
+
+msgid "LABEL_PRODUCTS_TAX"
+msgstr "税金"
+
+msgid "LABEL_PRODUCTS_STATUS"
+msgstr "掲載状況"
+
+msgid "LABEL_PRODUCTS_TAX_BUTTON_AUTO"
+msgstr "自動計算"
+
+msgid "LABEL_PRODUCTS_NOPRICE"
+msgstr "商品/ホームページの選択"
+
+msgid "LABEL_PRODUCTS_HOMEPAGE"
+msgstr "ホームページ"
+
+msgid "LABEL_PRODUCTS_CUSTOMIZE"
+msgstr "カスタム"
+
+msgid "LABEL_CHOOSE_PRODUCTS_EMPTY"
+msgstr "商品"
+
+msgid "LABEL_CHOOSE_PRODUCTS_BUTTON_LABEL_DEFAULT"
+msgstr "デフォルトを使う"
+
+msgid "LABEL_CHOOSE_PRODUCTS_BUTTON_LABEL_HOMEPAGE"
+msgstr "ホームページを開く"
+
+msgid "LABEL_CHOOSE_PRODUCTS_BUTTON_LABEL"
+msgstr "ボタン表示テキスト"
+
+msgid "LABEL_CHOOSE_PRODUCTS_IS_NOPRICE"
+msgstr "価格の表示"
+
+msgid "LABEL_CHOOSE_PRODUCTS_IS_NOPRICE_YES"
+msgstr "表示する"
+
+msgid "LABEL_CHOOSE_PRODUCTS_IS_NOPRICE_NO"
+msgstr "表示しない"
+
+msgid "LABEL_INSTAGRAMS_STATUS"
+msgstr "公開状況"
+
+msgid "LABEL_MENU_PRODUCT_LOGS"
+msgstr "注文管理"
+
+msgid "LABEL_ORDERS_LIST"
+msgstr "注文一覧"
+
+msgid "LABEL_PRODUCT_LOGS_LIST"
+msgstr "商品ログ"
+
+msgid "LABEL_PRODUCT_LOGS_IMAGE"
+msgstr "商品画像"
+
+msgid "LABEL_PRODUCT_LOGS_NAME"
+msgstr "商品名"
+
+msgid "LABEL_PRODUCT_LOGS_MOVE_EXTERNAL_SITE"
+msgstr "友好リンク"
+
+msgid "LABEL_PRODUCT_LOGS_CART_ADD"
+msgstr "カート入れ数"
+
+msgid "LABEL_PRODUCT_LOGS_CURATOR_BRAND"
+msgstr "購入完了数"
+
+msgid "LABEL_PRODUCT_LOGS_TYPE"
+msgstr "商品タイプ 単品"
+
+msgid "LABEL_ORDERS_ID"
+msgstr "注文ID"
+
+msgid "LABEL_ORDERS_USER_TYPE"
+msgstr "ユーザータイプ"
+
+msgid "LABEL_ORDERS_USERNAME"
+msgstr "ユーザー名"
+
+msgid "LABEL_ORDERS_PRODUCTS_NAME_NUMBER"
+msgstr "商品"
+
+msgid "LABEL_ORDERS_TOTAL_PRICE_NUMBER"
+msgstr "購入金額"
+
+msgid "LABEL_ORDERS_SEARCH_DATE"
+msgstr "購入日"
+
+msgid "LABEL_PRODUCTS_EXTERNAL_SITE_URL"
+msgstr "商品タイプ"
+
+msgid "LABEL_INSTAGRAMS_DISABLE"
+msgstr "選択したデータを削除"
+
+msgid "LABEL_PRODUCTS_SITE_NAME"
+msgstr "外部サイト名"
+
+msgid "LABEL_INSTAGRAMS_CONTENT_TYPE"
+msgstr "コンテンツタイプ"
+
+msgid "LABEL_CHOOSE_EMPTY"
+msgstr " 未選択"
+
+msgid "LABEL_PRODUCTS_POPUP_CATEGORIES"
+msgstr "商品選択"
+
+msgid "LABEL_PRODUCTS_TITLE_PREVIEW"
+msgstr "タイトル"
+
+msgid "LABEL_PRODUCTS_POPUP_TITLE"
+msgstr "アイテム登録"
+
+msgid "LABEL_ARITCLES_BOX_PRODUCT"
+msgstr "関連付け情報"
+
+msgid "LABEL_USER_LIST"
+msgstr "顧客一覧"
+
+msgid "LABEL_USER_LIST_MAIL"
+msgstr "メールアドレス"
+
+msgid "LABEL_USER_LIST_STATUS"
+msgstr "承認／非承認"
+
+msgid "LABEL_MENU_USER"
+msgstr "顧客管理"
+
+msgid "LABEL_PRODUCTS_UPDATE"
+msgstr "商品情報編集"
+
+msgid "LABEL_MENU_INSTAGRAM"
+msgstr "Instagram管理"
+
+msgid "LABEL_INSTAGRAMS_DATA_MANAGEMENT"
+msgstr "Instagram 投稿"
+
+msgid "LABEL_INSTAGRAMDATA_TITLE"
+msgstr "Instagram 投稿一覧"
+
+msgid "LABEL_INSTAGRAMDATA_IMPORT"
+msgstr "Instagram インポート"
+
+msgid "LABEL_INSTAGRAMDATA_ADD"
+msgstr "Instagram 画像追加"
+
+msgid "LABEL_INSTAGRAMDATA_IMPORT"
+msgstr "Instagram インポート"
+
+msgid "LABEL_BEGIN_IMPORT"
+msgstr "インポート開始"
+
+msgid "LABEL_CURATORS_RULES_CHECK"
+msgstr "permission denied このページに対する権限がありません。"
+
+msgid "LABEL_COMING_SOON"
+msgstr "Coming soonスイッチ"
+
+msgid "LABEL_COMING_SOON_DESCRIPTION"
+msgstr "ONにすると商品がどんな状態でも"Coming soon" の表示に変わります。"
+
+msgid "LABEL_SEARCH_DELETE"
+msgstr "削除状態"
+
+msgid "LABEL_NEWS_MANAGER"
+msgstr "お知らせ管理"
+
+msgid "LABEL_NEWS_ADD"
+msgstr "お知らせ新規追加"
+
+msgid "LABEL_NEWS_LIST"
+msgstr "お知らせ一覧"
+
+msgid "LABEL_NEWS_DETAIL"
+msgstr "お知らせ詳細"
+
+msgid "LABEL_NEWS_UPDATE"
+msgstr "お知らせ編集"
+
+msgid "LABEL_NEWS_DETAIL"
+msgstr "お知らせ追加"
+
+msgid "LABEL_NEWS_TITLE"
+msgstr "お知らせタイトル"
+
+msgid "LABEL_TITLE_DESC"
+msgstr "お知らせタイトルの降順"
+
+msgid "LABEL_TITLE_ASC"
+msgstr "お知らせタイトルの昇順"
+
+msgid "LABEL_NEWS_TITLE_REQUIRED"
+msgstr "お知らせタイトルは必須項目です。"
+
+msgid "LABEL_NEWS_DATE"
+msgstr "日付"
+
+msgid "LABEL_NEWS_CONTENT"
+msgstr "本文"
+
+msgid "LABEL_NEWS_UPDATE_SIDEBAR"
+msgstr "お知らせ追加"
+
+msgid "LABEL_POPUP_PRODUCTS_SORT_ID_ASC"
+msgstr "古い順"
+
+msgid "LABEL_POPUP_PRODUCTS_SORT_ID_DESC"
+msgstr "新しい順"
+
+msgid "LABEL_POPUP_PRODUCTS_SORT_PRODUCT_CATEGORY_ID_ASC"
+msgstr "カテゴリ順"
+
+msgid "LABEL_POPUP_PRODUCTS_SORT_NAME_DESC"
+msgstr "名前順"
+
+msgid "LABEL_POPUP_PRODUCTS_SORT_PRIORITY_DESC"
+msgstr "優先度順"
+
+msgid "LABEL_PRIORITY_VALIDATE"
+msgstr "数字で入力してください"
+
+msgid "LABEL_PRODUCTS_BUTTON_POPUP_ITEM"
+msgstr "アイテムを追加する"
+
+msgid "LABEL_INSTAGRAMS_BUTTON_POPUP_ARTICLE"
+msgstr "記事を選択する"
+
+msgid "LABEL_IS_HIDDEN_SEARCH"
+msgstr "リスト表示"
+
+msgid "LABEL_IS_HIDDEN"
+msgstr "リストへの表示"
+
+msgid "LABEL_IS_HIDDEN_DESCRIPTION"
+msgstr "「表示しない」にすると。キュレーターTOPからのみアクセスできます。"
+
+msgid "LABEL_INSTAGRAMS_IS_HIDDEN"
+msgstr "リストへの表示"
+
+msgid "LABEL_INSTAGRAMS_IS_HIDDEN_DESCRIPTION"
+msgstr "「表示しない」にするとTimelineやLISTに表示されなくなります。<br>キュレーターTOPからのみアクセスできます。"
+
+msgid "LABEL_IS_HIDDEN_YES"
+msgstr "表示しない"
+
+msgid "LABEL_IS_HIDDEN_NO"
+msgstr "表示する"
+
+msgid "LABEL_IS_USE_INSTAGRAM_IFRAME_YES"
+msgstr "表示しない"
+
+msgid "LABEL_IS_USE_INSTAGRAM_IFRAME_NO"
+msgstr "表示する"
+
+msgid "LABEL_IS_RECOMMEND"
+msgstr "HOT帯の表示"
+
+msgid "LABEL_IS_RECOMMEND_DESCRIPTION"
+msgstr "キュレーターTopやLISTのITEMSに\"HOT\"帯を表示します。"
+
+msgid "LABEL_IS_RECOMMEND_NO"
+msgstr "HOT帯を表示しない"
+
+msgid "LABEL_IS_RECOMMEND_YES"
+msgstr "HOT帯を表示する"
+
+msgid "LABEL_CURATORS_IMAGE"
+msgstr "プロフィール<br>画像"
+
+msgid "LABEL_CURATORS_IS_BRAND"
+msgstr "キュレーター/ブランド"
+
+msgid "LABEL_SINGLE_OR_MULTIPLE"
+msgstr "単品/セットの選択"
+
+msgid "LABEL_SINGLE_ITEM"
+msgstr "単品"
+
+msgid "LABLE_MULTIPLE_ITEM"
+msgstr "セット"
+
+msgid "LABEL_ITEM_PRODUCT_CATEGORY_ID"
+msgstr "アイテムカテゴリ"
+
+msgid "LABEL_ITEM_SUB_NAME"
+msgstr "アイテムブランド名"
+
+msgid "LABEL_IS_USE_INSTAGRAM"
+msgstr "インスタグラム埋め込みタグの使用"
+
+msgid "LABEL_INSTAGRAMS_IS_USE_INSTAGRAM_FRAME_ZERO"
+msgstr "埋め込みタグを使用しない"
+
+msgid "LABEL_INSTAGRAMS_IS_USE_INSTAGRAM_FRAME_ONE"
+msgstr "埋め込みタグを使用する"
+
+msgid "LABEL_ORDER_DETAIL"
+msgstr "オーダー内容"
+
+msgid "LABEL_USER_INFO"
+msgstr "ユーザ情報"
+
+msgid "User ID" 
+msgstr "顧客の会員ID"
+
+msgid "Birthday" 
+msgstr "生年月日"
+
+msgid "Phone" 
+msgstr "電話番号"
+
+msgid "Address" 
+msgstr "住所"
+
+msgid "LABEL_ORDER_INFO" 
+msgstr "オーダー情報"
+
+msgid "LABEL_ORDER_ID"
+msgstr "オーダーID"
+
+msgid "LABEL_SHIP_NAME"
+msgstr "受取人様お名前"
+
+msgid "LABEL_SHIP_ADDRESS"
+msgstr "お届け先住所"
+
+msgid "LABEL_USER_ADDRESS"
+msgstr "ご本人様住所"
+
+msgid "LABEL_USER_NAME"
+msgstr "お名前"
+
+msgid "LABEL_TOTAL_FEE"
+msgstr "送料"
+
+msgid "LABEL_TOTAL_PRICE"
+msgstr "合計"
+
+msgid "LABEL_TOTAL_TAX"
+msgstr "合計税"
+
+msgid "LABEL_PRODUCT_LIST2"
+msgstr "商品一覧"
+
+msgid "LABEL_SHIPPING_COMPANY"
+msgstr "配送会社"
+
+msgid "LABEL_TRACKING_NUMBER"
+msgstr "追跡番号"
+
+msgid "LABEL_DETAIL"
+msgstr "詳細"
+
+msgid "LABEL_EXPORT_EXCEL"
+msgstr "表示中のデータをExcel出力"
+
+msgid "LABEL_PRODUCT_ASC"
+msgstr "商品毎の昇順"
+
+msgid "LABEL_PRODUCT_DESC"
+msgstr "商品毎の降順"
+
+msgid "LABEL_INSTAGRAM_HASHTAG"
+msgstr "インポート ハッシュタグ"
+
+msgid "LABEL_EXTERNAL_SITE"
+msgstr "外部サイト管理"
+
+msgid "LABEL_IS_SCRAPING_TARGET"
+msgstr "スクレイピングの対象"
+
+msgid "LABEL_IS_SCRAPING_TARGET_ON"
+msgstr "スクレイピングする"
+
+msgid "LABEL_IS_SCRAPING_TARGET_OFF"
+msgstr "いいえ"
+
+msgid "LABEL_EXTERNAL_SITE_NMAE"
+msgstr "外部サイト名"
+
+msgid "LABEL_EXTERNAL_SITE_EDIT"
+msgstr "外部サイト編集"
+
+msgid "LABEL_TRACKING_PARAMS"
+msgstr "外部サイトトラッキングパラメーター"
+
+msgid "LABEL_SCRAPING_CONDITION_FOR_NAME"
+msgstr "商品名path"
+
+msgid "LABEL_SCRAPING_CONDITION_FOR_BRAND_NAME"
+msgstr "ブランド名path"
+
+msgid "LABEL_SCRAPING_CONDITION_FOR_PRICE"
+msgstr "価格path"
+
+msgid "LABEL_SCRAPING_IS_PRICE_WITH_TAX"
+msgstr "税込or税抜"
+
+msgid "LABEL_SCRAPING_IS_PRICE_WITH_TAX_YES"
+msgstr "税込"
+
+msgid "LABEL_SCRAPING_IS_PRICE_WITH_TAX_NO"
+msgstr "税抜"
+
+msgid "LABEL_SCRAPING_CONDITION_FOR_CATEGORY"
+msgstr "カテゴリーPath"
+
+msgid "LABEL_SCRAPING_CONDITION_FOR_IMAGE"
+msgstr "イメージPath"
+
+msgid "LABEL_SCRAPING_CONDITION_FOR_404ERROR"
+msgstr "404確認Path"
