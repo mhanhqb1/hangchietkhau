@@ -10,7 +10,7 @@ $this->Breadcrumb->setTitle($pageTitle)
     ));
 
 $param = array();
-$data = Api::call(Configure::read('API.url_reports_general'), $param);
+$data = array();//Api::call(Configure::read('API.url_reports_general'), $param);
 
 $this->set(compact(
     'data'
