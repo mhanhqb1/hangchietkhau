@@ -42,8 +42,7 @@ $this->SearchForm
         ));
 
 $param = $this->getParams(array(
-    'limit' => $pageSize,
-    'disable' => 0
+    'limit' => $pageSize
 ));
 
 $result = Api::call(Configure::read('API.url_products_list'), $param);

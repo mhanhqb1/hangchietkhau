@@ -22,7 +22,6 @@ if (!empty($id)) {
     $pageTitle = __('LABEL_ADD_NEW');
 }
 $cateParam = array(
-    'type' => 1,
     'parent_id' => 0
 );
 if (!empty($id)) {
@@ -68,11 +67,6 @@ $this->UpdateForm->reset()
         'label' => __('LABEL_POSITION'),
     ))
     ->addElement(array(
-        'id' => 'is_homepage',
-        'label' => __('LABEL_IS_HOMEPAGE'),
-        'options' => Configure::read('Config.noYes')
-    ))
-    ->addElement(array(
         'type' => 'submit',
         'value' => __('LABEL_SAVE'),
         'class' => 'btn btn-primary',
@@ -96,7 +90,6 @@ if ($this->request->is('post')) {
     // Validation
     if ($form->validate($data)) {
         // Call API
-        $data['type'] = 1;
         $id = Api::call(Configure::read('API.url_cates_addupdate'), $data);
         if (!empty($id) && !Api::getError()) {            
             $this->Flash->success(__('MESSAGE_SAVE_OK'));

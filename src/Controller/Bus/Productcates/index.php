@@ -14,8 +14,7 @@ $this->Breadcrumb->setTitle($pageTitle)
 
 // Create search form
 $cateParent = $this->Common->arrayKeyValue(Api::call(Configure::read('API.url_cates_all'), array(
-    'parent_id' => 0,
-    'type' => 1
+    'parent_id' => 0
 )), 'id', 'name');
 $dataSearch = array(
     'limit' => $pageSize
@@ -51,9 +50,7 @@ $this->SearchForm
         ));
 
 $param = $this->getParams(array(
-    'limit' => $pageSize,
-    'type' => 1,
-    'disable' => 0
+    'limit' => $pageSize
 ));
 
 $result = Api::call(Configure::read('API.url_cates_list'), $param);
@@ -87,11 +84,6 @@ $this->SimpleTable
             'title' => __('LABEL_CATE_PARENT'),
             'rules' => $cateParent,
             'empty' => '-'
-        ))
-        ->addColumn(array(
-            'id' => 'is_homepage',
-            'title' => __('LABEL_IS_HOMEPAGE'),
-            'empty' => '0'
         ))
         ->addColumn(array(
             'id' => 'created',

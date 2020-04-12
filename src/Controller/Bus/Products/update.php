@@ -23,11 +23,9 @@ if (!empty($id)) {
     $pageTitle = __('LABEL_ADD_NEW');
 }
 
-//$cateParam = array(
-//    'type' => 1
-//);
-//$cates = $this->showCategories(Api::call(Configure::read('API.url_cates_all'), $cateParam));
-//$cates = $this->Common->arrayKeyValue($this->_cateTemp, 'id', 'name');
+$cateParam = array();
+$cates = $this->showCategories(Api::call(Configure::read('API.url_cates_all'), $cateParam));
+$cates = $this->Common->arrayKeyValue($this->_cateTemp, 'id', 'name');
 
 // Create breadcrumb
 $listPageUrl = h($this->BASE_URL . '/products');
@@ -60,6 +58,13 @@ $this->UpdateForm->reset()
         'id' => 'qty',
         'label' => __('QTY'),
         'required' => true,
+    ))
+    ->addElement(array(
+        'id' => 'cate_id',
+        'label' => __('LABEL_CATE'),
+        'options' => $cates,
+        'empty' => '-',
+        'multiple' => 'multiple'
     ))
     ->addElement(array(
         'id' => 'image',
@@ -205,6 +210,9 @@ if ($this->request->is('post')) {
             $filename = $data['image_5']['name'];
             $filedata = $data['image_5']['tmp_name'];
             $data['image_5'] = new CurlFile($filedata, $filetype, $filename);
+        }
+        if (!empty($data['cate_id'])) {
+            $data['cate_id'] = implode(',', $data['cate_id']);
         }
         // Call API
         $id = Api::call(Configure::read('API.url_products_addupdate'), $data);
