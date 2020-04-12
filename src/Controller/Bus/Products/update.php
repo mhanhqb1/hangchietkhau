@@ -23,11 +23,11 @@ if (!empty($id)) {
     $pageTitle = __('LABEL_ADD_NEW');
 }
 
-$cateParam = array(
-    'type' => 1
-);
-$cates = $this->showCategories(Api::call(Configure::read('API.url_cates_all'), $cateParam));
-$cates = $this->Common->arrayKeyValue($this->_cateTemp, 'id', 'name');
+//$cateParam = array(
+//    'type' => 1
+//);
+//$cates = $this->showCategories(Api::call(Configure::read('API.url_cates_all'), $cateParam));
+//$cates = $this->Common->arrayKeyValue($this->_cateTemp, 'id', 'name');
 
 // Create breadcrumb
 $listPageUrl = h($this->BASE_URL . '/products');
@@ -56,43 +56,78 @@ $this->UpdateForm->reset()
         'label' => __('LABEL_NAME'),
         'required' => true,
     ))
-    ->addElement(array(
-        'id' => 'cate_id',
-        'label' => __('LABEL_CATE'),
-        'options' => $cates,
-        'empty' => '-'
+     ->addElement(array(
+        'id' => 'qty',
+        'label' => __('QTY'),
+        'required' => true,
     ))
     ->addElement(array(
         'id' => 'image',
-        'label' => __('LABEL_IMAGE').'(378x378)',
+        'label' => __('LABEL_IMAGE').'',
         'image' => true,
         'type' => 'file'
     ))
     ->addElement(array(
-        'id' => 'image2',
-        'label' => __('LABEL_IMAGE').'(378x378)',
-        'image' => true,
-        'type' => 'file'
-    ))
-        ->addElement(array(
-        'id' => 'image3',
-        'label' => __('LABEL_IMAGE').'(378x378)',
-        'image' => true,
-        'type' => 'file'
-    ))
-        ->addElement(array(
-        'id' => 'image4',
-        'label' => __('LABEL_IMAGE').'(378x378)',
+        'id' => 'image_2',
+        'label' => __('LABEL_IMAGE').' 2',
         'image' => true,
         'type' => 'file'
     ))
     ->addElement(array(
-        'id' => 'price',
+        'id' => 'image_3',
+        'label' => __('LABEL_IMAGE').' 3',
+        'image' => true,
+        'type' => 'file'
+    ))
+    ->addElement(array(
+        'id' => 'image_4',
+        'label' => __('LABEL_IMAGE').' 4',
+        'image' => true,
+        'type' => 'file'
+    ))
+    ->addElement(array(
+        'id' => 'image_5',
+        'label' => __('LABEL_IMAGE').' 5',
+        'image' => true,
+        'type' => 'file'
+    ))
+    ->addElement(array(
+        'id' => 'admin_price',
+        'label' => __('LABEL_ADMIN_PRICE'),
+    ))
+    ->addElement(array(
+        'id' => 'wholesale_price',
+        'label' => __('LABEL_WHOLESALE_PRICE'),
+    ))
+    ->addElement(array(
+        'id' => 'discount',
+        'label' => __('LABEL_DISCOUNT'),
+    ))
+    ->addElement(array(
+        'id' => 'discount_unit',
+        'label' => __('LABEL_DISCOUNT_UNIT'),
+        'options' => array(
+            '0' => '%',
+            '1' => 'Tiền mặt'
+        )
+    ))
+    ->addElement(array(
+        'id' => 'root_price',
         'label' => __('LABEL_PRICE'),
     ))
+    // ADD supplier id
     ->addElement(array(
-        'id' => 'discount_price',
-        'label' => __('LABEL_DISCOUNT_PRICE'),
+        'id' => 'source_url',
+        'label' => __('LABEL_SOURCE_URL'),
+    ))
+    ->addElement(array(
+        'id' => 'source_name',
+        'label' => __('LABEL_SOURCE_NAME'),
+    ))
+    ->addElement(array(
+        'id' => 'attributes',
+        'label' => __('LABEL_ATTRIBUTES'),
+        'type' => 'editor'
     ))
     ->addElement(array(
         'id' => 'description',
@@ -147,23 +182,29 @@ if ($this->request->is('post')) {
             $filedata = $data['image']['tmp_name'];
             $data['image'] = new CurlFile($filedata, $filetype, $filename);
         }
-        if (!empty($data['image2']['name'])) {
-            $filetype = $data['image2']['type'];
-            $filename = $data['image2']['name'];
-            $filedata = $data['image2']['tmp_name'];
-            $data['image2'] = new CurlFile($filedata, $filetype, $filename);
+        if (!empty($data['image_2']['name'])) {
+            $filetype = $data['image_2']['type'];
+            $filename = $data['image_2']['name'];
+            $filedata = $data['image_2']['tmp_name'];
+            $data['image_2'] = new CurlFile($filedata, $filetype, $filename);
         }
-        if (!empty($data['image3']['name'])) {
-            $filetype = $data['image3']['type'];
-            $filename = $data['image3']['name'];
-            $filedata = $data['image3']['tmp_name'];
-            $data['image3'] = new CurlFile($filedata, $filetype, $filename);
+        if (!empty($data['image_3']['name'])) {
+            $filetype = $data['image_3']['type'];
+            $filename = $data['image_3']['name'];
+            $filedata = $data['image_3']['tmp_name'];
+            $data['image_3'] = new CurlFile($filedata, $filetype, $filename);
         }
-        if (!empty($data['image4']['name'])) {
-            $filetype = $data['image4']['type'];
-            $filename = $data['image4']['name'];
-            $filedata = $data['image4']['tmp_name'];
-            $data['image4'] = new CurlFile($filedata, $filetype, $filename);
+        if (!empty($data['image_4']['name'])) {
+            $filetype = $data['image_4']['type'];
+            $filename = $data['image_4']['name'];
+            $filedata = $data['image_4']['tmp_name'];
+            $data['image_4'] = new CurlFile($filedata, $filetype, $filename);
+        }
+        if (!empty($data['image_5']['name'])) {
+            $filetype = $data['image_5']['type'];
+            $filename = $data['image_5']['name'];
+            $filedata = $data['image_5']['tmp_name'];
+            $data['image_5'] = new CurlFile($filedata, $filetype, $filename);
         }
         // Call API
         $id = Api::call(Configure::read('API.url_products_addupdate'), $data);
