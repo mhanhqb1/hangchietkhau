@@ -390,3 +390,18 @@ msgstr "Quản lý liên hệ"
 
 msgid "LABEL_CONTACT_LIST"
 msgstr "Danh sách liên hệ"
+
+msgid "LABEL_ADMIN_PRICE"
+msgstr "Tiền mua hàng"
+
+msgid "LABEL_ADMIN_INCOME"
+msgstr "Tiền lời"
+
+msgid "LABEL_WHOLESALE_PRICE"
+msgstr "Giá sĩ"
+
+msgid "LABEL_WHOLESALE_INCOME"
+msgstr "Chiết khấu"
+
+msgid "LABEL_ROOT_PRICE"
+msgstr "Giá gốc"

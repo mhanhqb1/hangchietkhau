@@ -75,26 +75,39 @@ $this->SimpleTable
             'empty' => ''
         ))
         ->addColumn(array(
-            'id' => 'cate_name',
-            'title' => __('LABEL_CATE'),
+            'id' => 'qty',
+            'title' => __('Qty'),
+            'empty' => ''
+        ))
+        ->addColumn(array(
+            'id' => 'admin_price',
+            'title' => __('LABEL_ADMIN_PRICE'),
+            'empty' => ''
+        ))
+        ->addColumn(array(
+            'id' => 'admin_income',
+            'title' => __('LABEL_ADMIN_INCOME'),
+            'empty' => ''
+        ))
+        ->addColumn(array(
+            'id' => 'wholesale_price',
+            'title' => __('LABEL_WHOLESALE_PRICE'),
+            'empty' => ''
+        ))
+        ->addColumn(array(
+            'id' => 'wholesale_income',
+            'title' => __('LABEL_WHOLESALE_INCOME'),
+            'empty' => ''
+        ))
+        ->addColumn(array(
+            'id' => 'root_price',
+            'title' => __('LABEL_ROOT_PRICE'),
             'empty' => ''
         ))
         ->addColumn(array(
             'id' => 'price',
             'title' => __('LABEL_PRICE'),
             'empty' => ''
-        ))
-        ->addColumn(array(
-            'id' => 'description',
-            'title' => __('LABEL_DESCRIPTION'),
-            'empty' => ''
-        ))
-        ->addColumn(array(
-            'id' => 'created',
-            'type' => 'dateonly',
-            'title' => __('LABEL_CREATED'),
-            'width' => 100,
-            'empty' => '',
         ))
         ->addColumn(array(
             'type' => 'link',
