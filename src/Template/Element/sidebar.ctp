@@ -48,6 +48,13 @@
                 </ul>
             </li>
             
+            <li class="<?php if (in_array($controller, array('suppliers'))) echo ' active ' ?>">
+                <a href="<?php echo $BASE_URL; ?>/suppliers">
+                    <i class="fa fa-cart-plus"></i>
+                    <span><?php echo __('LABEL_SUPPLIERS_MANAGEMENT'); ?></span>
+                </a>
+            </li>
+            
             <li class="treeview <?php if (in_array($controller, array('posts', 'postcates'))) echo ' active ' ?>">
                 <a href="#">
                     <i class="fa fa-newspaper-o"></i> 

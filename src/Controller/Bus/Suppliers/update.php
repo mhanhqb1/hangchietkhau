@@ -51,16 +51,24 @@ $this->UpdateForm->reset()
         'required' => true,
     ))
     ->addElement(array(
-        'id' => 'tel',
+        'id' => 'email',
+        'label' => __('LABEL_EMAIL'),
+    ))
+    ->addElement(array(
+        'id' => 'phone',
         'label' => __('LABEL_TEL'),
+    ))
+    ->addElement(array(
+        'id' => 'website',
+        'label' => __('LABEL_WEBSITE'),
+    ))
+    ->addElement(array(
+        'id' => 'facebook',
+        'label' => __('LABEL_FACEBOOK'),
     ))
     ->addElement(array(
         'id' => 'address',
         'label' => __('LABEL_ADDRESS'),
-    ))
-    ->addElement(array(
-        'id' => 'email',
-        'label' => __('LABEL_EMAIL'),
     ))
     ->addElement(array(
         'id' => 'note',
