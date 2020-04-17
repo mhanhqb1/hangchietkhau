@@ -27,6 +27,12 @@ $cateParam = array();
 $cates = $this->showCategories(Api::call(Configure::read('API.url_cates_all'), $cateParam));
 $cates = $this->Common->arrayKeyValue($this->_cateTemp, 'id', 'name');
 
+$suppliers = $this->Common->arrayKeyValue(
+    Api::call(Configure::read('API.url_suppliers_all'), array()), 
+    'id', 
+    'name'
+);
+
 // Create breadcrumb
 $listPageUrl = h($this->BASE_URL . '/products');
 $this->Breadcrumb->setTitle($pageTitle)
@@ -65,6 +71,12 @@ $this->UpdateForm->reset()
         'options' => $cates,
         'empty' => '-',
         'multiple' => 'multiple'
+    ))
+    ->addElement(array(
+        'id' => 'supplier_id',
+        'label' => __('LABEL_SUPPLIER'),
+        'options' => $suppliers,
+        'empty' => '-',
     ))
     ->addElement(array(
         'id' => 'image',
