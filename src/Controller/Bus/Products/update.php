@@ -167,7 +167,8 @@ $this->UpdateForm->reset()
     ))
     ->addElement(array(
         'id' => 'source_id',
-        'label' => __('Source ID')
+        'label' => __('Source ID'),
+        'type' => 'text'
     ))
     ->addElement(array(
         'id' => 'is_hot',
