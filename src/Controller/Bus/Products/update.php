@@ -157,6 +157,15 @@ $this->UpdateForm->reset()
         'type' => 'editor'
     ))
     ->addElement(array(
+        'id' => 'aff_url',
+        'label' => __('Aff URL')
+    ))
+    ->addElement(array(
+        'id' => 'aff_news_url',
+        'label' => __('Aff news url'),
+        'type' => 'textarea'
+    ))
+    ->addElement(array(
         'id' => 'is_hot',
         'label' => __('LABEL_IS_HOT'),
         'options' => Configure::read('Config.noYes')
