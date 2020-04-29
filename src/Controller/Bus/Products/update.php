@@ -166,6 +166,10 @@ $this->UpdateForm->reset()
         'type' => 'textarea'
     ))
     ->addElement(array(
+        'id' => 'source_id',
+        'label' => __('Source ID')
+    ))
+    ->addElement(array(
         'id' => 'is_hot',
         'label' => __('LABEL_IS_HOT'),
         'options' => Configure::read('Config.noYes')
