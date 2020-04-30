@@ -166,7 +166,7 @@ $this->UpdateForm->reset()
         'type' => 'textarea'
     ))
     ->addElement(array(
-        'id' => 'source_id',
+        'id' => 'source_pid',
         'label' => __('Source ID'),
         'type' => 'text'
     ))
