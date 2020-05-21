@@ -91,24 +91,6 @@ $this->SimpleTable
             'width' => 100,
             'empty' => '',
         ))
-        ->addColumn(array(
-            'id' => 'disable',
-            'type' => 'checkbox',
-            'title' => __('LABEL_DELETE'),
-            'toggle' => true,
-            'toggle-onstyle' => "primary",
-            'toggle-offstyle' => "danger",
-            'toggle-options' => array(
-                "data-on" => __("LABEL_ENABLE"),
-                "data-off" => __("LABEL_DELETE"),
-            ),
-            'rules' => array(
-                '0' => '',
-                '1' => 'checked'
-            ),
-            'empty' => 0,
-            'width' => 50,
-        ))
         ->addButton(array(
             'type' => 'submit',
             'value' => __('LABEL_ADD_NEW'),

@@ -162,7 +162,7 @@ $this->UpdateForm->reset()
     ))
     ->addElement(array(
         'id' => 'aff_news_url',
-        'label' => __('Aff news url'),
+        'label' => __('Aff news url (Ten:::link enter)'),
         'type' => 'textarea'
     ))
     ->addElement(array(
