@@ -29,6 +29,10 @@ if (!empty($id)) {
 //}
 //$cates = $this->Common->arrayKeyValue(Api::call(Configure::read('API.url_cates_all'), $cateParam), 'id', 'name');
 
+$types = array(
+    1 => 'Tin tuc',
+    2 => 'Huong Dan'
+);
 // Create breadcrumb
 $listPageUrl = h($this->BASE_URL . '/postcates');
 $this->Breadcrumb->setTitle($pageTitle)
@@ -56,12 +60,11 @@ $this->UpdateForm->reset()
         'label' => __('LABEL_NAME'),
         'required' => true,
     ))
-//    ->addElement(array(
-//        'id' => 'parent_id',
-//        'label' => __('LABEL_CATE'),
-//        'options' => $cates,
-//        'empty' => '-'
-//    ))
+    ->addElement(array(
+        'id' => 'type',
+        'label' => __('LABEL_TYPE'),
+        'options' => $types
+    ))
     ->addElement(array(
         'id' => 'position',
         'label' => __('LABEL_POSITION'),

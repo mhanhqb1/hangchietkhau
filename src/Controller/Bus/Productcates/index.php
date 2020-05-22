@@ -14,7 +14,8 @@ $this->Breadcrumb->setTitle($pageTitle)
 
 // Create search form
 $cateParent = $this->Common->arrayKeyValue(Api::call(Configure::read('API.url_cates_all'), array(
-    'parent_id' => 0
+    'parent_id' => 0,
+    'type' => 0
 )), 'id', 'name');
 $dataSearch = array(
     'limit' => $pageSize
@@ -50,7 +51,8 @@ $this->SearchForm
         ));
 
 $param = $this->getParams(array(
-    'limit' => $pageSize
+    'limit' => $pageSize,
+    'type' => 0
 ));
 
 $result = Api::call(Configure::read('API.url_cates_list'), $param);

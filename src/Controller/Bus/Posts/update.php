@@ -23,7 +23,7 @@ if (!empty($id)) {
 }
 
 $cates = $this->Common->arrayKeyValue(Api::call(Configure::read('API.url_cates_all'), array(
-    'type' => 2
+    'type' => '1,2'
 )), 'id', 'name');
 $types = array(
     0 => 'Tin tuc',

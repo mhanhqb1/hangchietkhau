@@ -42,8 +42,7 @@ $this->SearchForm
 
 $param = $this->getParams(array(
     'limit' => $pageSize,
-    'type' => 2,
-    'disable' => 0
+    'type' => '1,2'
 ));
 
 $result = Api::call(Configure::read('API.url_cates_list'), $param);
