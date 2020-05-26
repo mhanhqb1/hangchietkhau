@@ -7,10 +7,10 @@ use Cake\Core\Configure;
 
 define('USE_SUB_DIRECTORY', '');
 
-Configure::write('API.Host', 'http://api.tusachehon.com/public/');
-Configure::write('Config.HTTPS', false);
+Configure::write('API.Host', 'http://api.hangchietkhau.com/public/');
+Configure::write('Config.HTTPS', true);
 
 Configure::write('Config.CKeditor', array(
-    'basel_dir'=>'/home/lyonabea/img.tusachehon.com/',
-    'basel_url'=>'https://img.tusachehon.com/'
+    'basel_dir'=>'/home/lyonabea/img.hangchietkhau.com/',
+    'basel_url'=>'https://img.hangchietkhau.com/'
 ));
