@@ -23,7 +23,9 @@ if (!empty($id)) {
     $pageTitle = __('LABEL_ADD_NEW');
 }
 
-$cateParam = array();
+$cateParam = array(
+    'type' => 0
+);
 $cates = $this->showCategories(Api::call(Configure::read('API.url_cates_all'), $cateParam));
 $cates = $this->Common->arrayKeyValue($this->_cateTemp, 'id', 'name');
 

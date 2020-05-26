@@ -17,12 +17,23 @@ $dataSearch = array(
     'disable' => 0, 
     'limit' => $pageSize
 );
+$cateParam = array(
+    'type' => 0
+);
+$cates = $this->showCategories(Api::call(Configure::read('API.url_cates_all'), $cateParam));
+$cates = $this->Common->arrayKeyValue($this->_cateTemp, 'id', 'name');
 $this->SearchForm
         ->setAttribute('type', 'get')
         ->setData($dataSearch)
         ->addElement(array(
             'id' => 'name',
             'label' => __('LABEL_NAME')
+        ))
+        ->addElement(array(
+            'id' => 'cate_id',
+            'label' => __('LABEL_CATE'),
+            'options' => $cates,
+            'empty' => 'All'
         ))
         ->addElement(array(
             'id' => 'limit',
