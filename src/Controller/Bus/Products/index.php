@@ -91,28 +91,13 @@ $this->SimpleTable
             'empty' => ''
         ))
         ->addColumn(array(
-            'id' => 'admin_price',
-            'title' => __('LABEL_ADMIN_PRICE'),
-            'empty' => ''
-        ))
-        ->addColumn(array(
             'id' => 'admin_income',
             'title' => __('LABEL_ADMIN_INCOME'),
             'empty' => ''
         ))
         ->addColumn(array(
-            'id' => 'wholesale_price',
-            'title' => __('LABEL_WHOLESALE_PRICE'),
-            'empty' => ''
-        ))
-        ->addColumn(array(
             'id' => 'wholesale_income',
             'title' => __('LABEL_WHOLESALE_INCOME'),
-            'empty' => ''
-        ))
-        ->addColumn(array(
-            'id' => 'root_price',
-            'title' => __('LABEL_ROOT_PRICE'),
             'empty' => ''
         ))
         ->addColumn(array(
@@ -125,24 +110,6 @@ $this->SimpleTable
             'title' => __('LABEL_EDIT'),
             'href' => $this->BASE_URL . '/' . $this->controller . '/update/{id}',
             'button' => true,
-            'width' => 50,
-        ))
-        ->addColumn(array(
-            'id' => 'disable',
-            'type' => 'checkbox',
-            'title' => __('LABEL_DELETE'),
-            'toggle' => true,
-            'toggle-onstyle' => "primary",
-            'toggle-offstyle' => "danger",
-            'toggle-options' => array(
-                "data-on" => __("LABEL_ENABLE"),
-                "data-off" => __("LABEL_DELETE"),
-            ),
-            'rules' => array(
-                '0' => '',
-                '1' => 'checked'
-            ),
-            'empty' => 0,
             'width' => 50,
         ))
         ->addButton(array(
