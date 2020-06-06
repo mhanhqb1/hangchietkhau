@@ -17,6 +17,13 @@ $dataSearch = array(
     'disable' => 0, 
     'limit' => $pageSize
 );
+$status = array(
+    0 => 'Chờ duyệt',
+    1 => 'Đã duyệt',
+    2 => 'Trùng đơn',
+    3 => 'Hủy',
+    4 => 'Tạm duyệt'
+);
 $products = $this->Common->arrayKeyValue(Api::call(Configure::read('API.url_products_all')), 'id', 'name');
 $this->SearchForm
         ->setAttribute('type', 'get')
@@ -26,6 +33,11 @@ $this->SearchForm
             'label' => __('LABEL_PRODUCT'),
             'options' => $products,
             'empty' => '-'
+        ))
+        ->addElement(array(
+            'id' => 'status',
+            'label' => __('Status'),
+            'options' => $status
         ))
         ->addElement(array(
             'id' => 'limit',
@@ -106,6 +118,11 @@ $this->SimpleTable
             'title' => __('Source Payout'),
             'type' => 'currency',
             'empty' => 0
+        ))
+        ->addColumn(array(
+            'id' => 'status',
+            'title' => __('Status'),
+            'rules' => $status
         ))
         ->addColumn(array(
             'id' => 'created',
