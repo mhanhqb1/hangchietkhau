@@ -17,16 +17,15 @@ $dataSearch = array(
     'disable' => 0, 
     'limit' => $pageSize
 );
+$products = $this->Common->arrayKeyValue(Api::call(Configure::read('API.url_products_all')), 'id', 'name');
 $this->SearchForm
         ->setAttribute('type', 'get')
         ->setData($dataSearch)
         ->addElement(array(
-            'id' => 'name',
-            'label' => __('LABEL_NAME')
-        ))
-        ->addElement(array(
-            'id' => 'phone',
-            'label' => __('LABEL_TEL')
+            'id' => 'product_id',
+            'label' => __('LABEL_PRODUCT'),
+            'options' => $products,
+            'empty' => '-'
         ))
         ->addElement(array(
             'id' => 'limit',
@@ -67,25 +66,45 @@ $this->SimpleTable
             'width' => 50,
         ))
         ->addColumn(array(
-            'id' => 'name',
-            'title' => __('LABEL_NAME'),
+            'id' => 'product_image',
+            'title' => __('LABEL_AVATAR'),
+            'type' => 'image',
+            'src' => '{product_image}',
+            'width' => 110,
             'empty' => ''
         ))
         ->addColumn(array(
-            'id' => 'address',
-            'title' => __('LABEL_ADDRESS'),
-            'empty' => ''
-        ))
-        ->addColumn(array(
-            'id' => 'phone',
+            'id' => 'product_name',
             'title' => __('LABEL_TEL'),
             'empty' => ''
         ))
         ->addColumn(array(
-            'id' => 'total_price',
-            'title' => __('LABEL_ORDER_TOTAL'),
+            'id' => 'user_id',
+            'title' => __('User ID'),
+            'empty' => '-'
+        ))
+        ->addColumn(array(
+            'id' => 'price',
+            'title' => __('LABEL_PRICE'),
             'type' => 'currency',
-            'width' => 120,
+            'empty' => 0
+        ))
+        ->addColumn(array(
+            'id' => 'wholesale_income',
+            'title' => __('LABEL_WHOLESALE_INCOME'),
+            'type' => 'currency',
+            'empty' => 0
+        ))
+        ->addColumn(array(
+            'id' => 'admin_income',
+            'title' => __('LABEL_ADMIN_INCOME'),
+            'type' => 'currency',
+            'empty' => 0
+        ))
+        ->addColumn(array(
+            'id' => 'source_payout',
+            'title' => __('Source Payout'),
+            'type' => 'currency',
             'empty' => 0
         ))
         ->addColumn(array(
@@ -96,29 +115,11 @@ $this->SimpleTable
             'empty' => '',
         ))
         ->addColumn(array(
-            'type' => 'link',
-            'title' => __('LABEL_DETAIL'),
-            'href' => $this->BASE_URL . '/' . $this->controller . '/detail/{id}',
-            'button' => true,
-            'width' => 50,
-        ))
-        ->addColumn(array(
-            'id' => 'disable',
-            'type' => 'checkbox',
-            'title' => __('LABEL_DELETE'),
-            'toggle' => true,
-            'toggle-onstyle' => "primary",
-            'toggle-offstyle' => "danger",
-            'toggle-options' => array(
-                "data-on" => __("LABEL_ENABLE"),
-                "data-off" => __("LABEL_DELETE"),
-            ),
-            'rules' => array(
-                '0' => '',
-                '1' => 'checked'
-            ),
-            'empty' => 0,
-            'width' => 50,
+            'id' => 'updated',
+            'type' => 'dateonly',
+            'title' => __('Update'),
+            'width' => 100,
+            'empty' => '',
         ));
 
 $this->set('pageTitle', $pageTitle);
