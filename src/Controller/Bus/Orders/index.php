@@ -18,11 +18,11 @@ $dataSearch = array(
     'limit' => $pageSize
 );
 $status = array(
-    0 => 'Chờ duyệt',
-    1 => 'Đã duyệt',
-    2 => 'Trùng đơn',
-    3 => 'Hủy',
-    4 => 'Tạm duyệt'
+    0 => '<span class="label label-info">Chờ duyệt</span>',
+    1 => '<span class="label label-success">Đã duyệt</span>',
+    2 => '<span class="label label-warning">Trùng đơn</span>',
+    3 => '<span class="label label-danger">Hủy</span>',
+    4 => '<span class="label label-primary">Tạm duyệt</span>'
 );
 $products = $this->Common->arrayKeyValue(Api::call(Configure::read('API.url_products_all')), 'id', 'name');
 $this->SearchForm
@@ -37,7 +37,8 @@ $this->SearchForm
         ->addElement(array(
             'id' => 'status',
             'label' => __('Status'),
-            'options' => $status
+            'options' => $status,
+            'empty' => '-'
         ))
         ->addElement(array(
             'id' => 'limit',
@@ -137,6 +138,11 @@ $this->SimpleTable
             'title' => __('Update'),
             'width' => 100,
             'empty' => '',
+        ))
+        ->addButton(array(
+            'type' => 'submit',
+            'value' => __('Duyệt Đơn'),
+            'class' => 'btn btn-success btn-order-success',
         ));
 
 $this->set('pageTitle', $pageTitle);

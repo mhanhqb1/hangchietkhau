@@ -258,6 +258,18 @@ class AppController extends Controller
                             $this->Flash->success(__('MESSAGE_UPDATE_SUCCESSFULLY'));
                         }
                         break;
+                    case 'success':
+                        $param['status'] = 1;
+                        $_controller = $this->request->params['controller'];
+                        Api::call("{$_controller}/updatestatus", $param);
+                        $error = Api::getError();
+                        if ($error) {
+                            AppLog::warning("Can not update", __METHOD__, $data);
+                            $this->Flash->error(__('MESSAGE_CANNOT_UPDATE'));
+                        } else {
+                            $this->Flash->success(__('MESSAGE_UPDATE_SUCCESSFULLY'));
+                        }
+                        break;
                     default:
                         break;
                 }

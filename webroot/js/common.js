@@ -24,6 +24,10 @@ $(document).ready(function ($) {
     $(".btn-enable").click(function () {
         return disableEnableMulti('enable');
     });
+    $(".btn-order-success").click(function () {
+        return disableEnableMulti('success');
+    });
+    
     $(".btn-addnew").click(function () {
         if (controller == 'orders') {
             location.href = baseUrl + '/' + controller + '/add';
